@@ -1,0 +1,1029 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family: "Gabarito", serif;
+    min-height: 200vh;  
+}
+
+.title {
+    padding-left: 12%;
+    padding-top: 7px;
+    padding-right: 12%;
+    display: flex;
+    cursor: pointer;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+
+.image {
+    width: 188px;
+    top: 10px;
+    
+    
+     
+}
+
+.title-navigation {
+    margin-top: 15px;
+    display: flex;
+    gap: 30px;
+    padding: 5px;
+    font-size: 18px;
+    
+}
+
+.h1:hover {
+    color: rgb(12, 213, 146);
+   
+}
+
+.h2:hover {
+    color: aquamarine;
+   
+}
+
+.h3:hover {
+    color: aquamarine;
+}
+
+.h4:hover {
+    color: aquamarine;
+}
+
+.title-logo {
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+.title-logo h4 {
+    margin-top: 22px;
+    color: black;
+    padding-top: 9px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 2px;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.title-logo h4:hover {
+    margin-top: 22px;
+    border: solid black 1px;
+    padding-top: 8px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 2px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+}
+
+.title-logo img {
+    max-width: 30%;  /* 50% of its original size */
+    height: auto;
+    border-radius: 40px;
+    margin-top: 12px;
+    
+
+}
+
+
+.title-logo img:hover {
+    opacity: 50%;
+}
+
+
+/*Big Section 02 */
+
+.big {
+    font-size: 30px;
+    margin-top: 50px;
+    margin-left: 430px;
+    padding-left: 12%;
+    padding-right: 15%;
+    display: block;
+    
+
+}
+
+
+/*Catagories Section 03 */
+
+.catagories {
+    margin-top: 50px;
+    margin-bottom: 10px;
+    padding-left: 20%;
+    padding-top: 7px;
+    padding-right: 20%;
+    padding-bottom: 5px;
+    display: flex;
+    cursor: pointer;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.catagories img {
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+}
+
+.serach, 
+.hotel, 
+.flight, 
+.holyday, 
+.restaurant {
+    display: flex;
+    gap: 3px;
+    align-items: center;
+    font-size: 20px;
+    border-bottom: 2px solid transparent;  
+}
+
+.serach:hover,
+.hotel:hover,
+.flight:hover,
+.holyday:hover,
+.restaurant:hover {
+    border-bottom: 2px solid black;
+}
+
+
+
+
+/*Search Section 04*/
+
+.search {
+    outline: solid rgb(0, 0, 0) 1px;
+    border-radius: 25px;
+    width: 55%;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    padding: 8px;
+    margin-left: 22%;
+    margin-top: 20px;
+
+
+}
+
+.search input {
+    border: none;
+    font-size: 15px;
+    width: 700px;
+   
+}
+
+.search input:focus {
+    outline: none;
+}
+
+.search img {
+    max-width: 25px; 
+    height: auto;
+    
+}
+
+.search p {
+    background-color: rgb(124, 221, 146);
+    padding: 10px;
+    border-radius: 20px;
+    display: inline;
+    align-items: right;
+    cursor: pointer;
+    
+}
+
+.search p:hover {
+    background-color: rgb(202, 249, 214);
+    
+}
+
+
+/*Trip About Section 05*/
+
+.trip {
+    background-color: transparent;
+    width: 76%;
+    height: 500px;
+    margin-top: 50px;
+    margin-left: 12%;
+    margin-right: 12%;
+    display: flex;
+    justify-content: center;  
+    align-items: center;      
+    overflow: hidden;
+    position: relative;
+}
+
+.trip img {
+    width: 100%;  
+    height: auto;
+    object-fit: contain;  
+}
+
+.trip h1 {
+    position: absolute;
+    width: 30%;
+    font-size: 60px;
+    margin-left: 550px;
+    margin-bottom: 150px;
+}
+
+.trip h4 {
+    position: absolute;
+    width: 25%;
+    font-size: 25px;
+    margin-left: 500px;
+    margin-top: 100px;
+
+}
+
+.trip p {
+    position: absolute;
+    width: 100px;
+    font-size: 20px;
+    margin-left: 350px;
+    margin-top: 270px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    border-radius: 20px;
+    cursor: pointer;
+    
+}
+
+.trip p:hover {
+    opacity: 75%;
+}
+
+
+/*Explore Section 06*/
+
+.explore {
+    padding-left: 12%;
+    padding-top: 7px;
+    padding-right: 12%;
+     
+}
+
+
+.explore-two {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+
+}
+
+.one {
+    position: absolute;
+    margin-left: 15px;
+    margin-top: 250px;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+
+.two {
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 250px;
+    color: rgb(248, 248, 248);
+    font-size: 30px;
+   
+}
+
+.three {
+    position: absolute;
+    margin-left: 600px;
+    margin-top: 250px;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+
+}
+
+.four {
+    position: absolute;
+    margin-left: 900px;
+    margin-top: 250px;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+
+.explore-two img {
+    margin-top: 15px ;
+    width: 24%;
+    height: auto;
+    object-fit: contain;
+    cursor: pointer;
+    flex-wrap: wrap;
+
+}
+
+.explore-two img:hover {
+    opacity: 75%;
+}
+
+/*More Explore Section 07*/
+
+.more {
+    padding-left: 12%;
+    padding-top: 50px;
+    padding-right: 12%;
+    
+
+}
+
+.more-two {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+
+}
+
+
+
+.more-two img {
+    margin-top: 15px ;
+    width: 30%;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    gap: 3px;
+
+}
+
+.more-two img:hover {
+    opacity: 75%;
+
+}
+
+.more-three {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+
+}
+
+.more-three-1 {
+    margin-left: 45px;
+}
+
+.more-three-3 {
+    margin-right: 90px;
+}
+
+.sujan1 {
+    width: 25px;
+    margin-left: 100px;
+}
+
+.sujan2 {
+    width: 25px;
+    margin-left: 75px;
+
+}
+
+.sujan3 {
+    width: 25px;
+    margin-left: 75px;
+}
+
+.more-three-1 h5 {
+    margin-left: 105px;
+
+    
+}
+
+.more-three-2 h5 {
+    margin-left: 82px;
+
+    
+}
+
+.more-three-3 h5 {
+    margin-left: 82px;
+
+    
+}
+
+/*Background 08*/
+.background {
+    display: flex;
+    position: relative;
+
+}
+
+
+.background img {
+    margin-top: 20px;
+    width: 100%;
+    height: 750px;
+    display: flex;
+    
+}
+
+.background h1 {
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 400px;
+    font-size: 40px;
+}
+
+.background p {
+    width: 30%;
+    position: absolute;
+    margin-top: 175px;
+    margin-left: 550px;
+    font-size: 25px;
+}
+
+.background h5 {
+    width: 145px;
+    position: absolute;
+    border: solid  rgb(124, 221, 146) 3px ;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 15px;
+    background-color:  rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    margin-top: 250px;
+    margin-left: 680px;
+     
+}
+
+.background h5:hover {
+    background-color: rgb(124, 221, 146) ;
+    color: rgb(0, 0, 0);
+    border: solid  rgb(0, 0, 0) 3px ;
+    opacity: 75%;
+
+}
+
+
+
+
+
+/*Contact Section 09*/
+
+.contact {
+    margin-top: 50px;
+    background-color: beige;
+    width: 1520px;
+    height: 400px;
+}
+
+.contact-info {
+    padding-left: 12%;
+    padding-top: 20px;
+    padding-right: 12%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.contact-info p {
+    cursor: pointer;
+    
+}
+
+
+.container {
+    padding-left: 12%;
+    padding-top: 20px;
+    padding-right: 12%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+     
+}
+
+.contact-logo p {
+    width: 500px;
+    height: auto;
+    font-size: 13px;
+   
+
+} 
+
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+   
+
+}
+
+.contact-info img {
+    width: 25px;  
+    height: 25px;
+    cursor: pointer;
+  
+}
+
+@media screen and (max-width:800px) {
+    body {
+        font-size: 12px;
+        margin: 20px;
+        height: 20px;
+    }
+}
+
+@media screen and (max-width:600px) {
+
+    .title {
+        display: flex;
+        cursor: pointer;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+
+    .image {
+        display: inline-block;
+        width: 100px;
+        top: 20px;
+        margin-right: 25px;
+    }
+
+    .title-navigation {
+        margin-top: 5px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding: 2px;
+        font-size: 10px;
+        margin-right: 5px;
+        
+    }
+
+    .title-logo img {
+        max-width: 40%;  
+        height: auto;
+        border-radius: 40px;
+        margin-top: 7px;
+        margin-left: 40px;
+        justify-content: end;
+        
+    
+    }
+
+   
+
+    
+
+    /*Big Section 02 */
+
+    .big {
+        font-size: 10px;
+        margin-top: 20px;
+        margin-left: 100px;
+        padding-left: 12%;
+        padding-right: 15%;
+        display: block;
+        
+    
+    }
+
+    /*Catagories Section 03 */
+
+    .catagories {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 20px;
+        display: flex;
+        cursor: pointer;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .catagories img {
+        width: 15px;
+        height: 25px;
+        object-fit: contain;
+    }
+
+    .serach, 
+    .hotel, 
+    .flight, 
+    .holyday, 
+    .restaurant {
+        display: flex;
+        gap: 3px;
+        align-items: center;
+        font-size: 10px;
+        border-bottom: 2px solid transparent;  
+}
+
+.title-logo h4 {
+   display: none;
+}
+
+
+/*Search Section 04*/
+
+.search input {
+    border: none;
+    font-size: 10px;
+    width: 1000px;
+   
+}
+
+.search {
+    outline: solid rgb(0, 0, 0) 1px;
+    border-radius: 25px;
+    width: 75%;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    padding: 8px;
+    margin-left: 13%;
+    margin-top: 10px;
+
+
+}
+
+/*Trip About Section 05*/
+
+.trip {
+    background-color: transparent;
+    width: 90%;
+    height: 200px;
+    margin-top: 5px;
+    margin-left: 5%;
+    display: flex;
+    justify-content: center;  
+    align-items: center;      
+    overflow: hidden;
+    position: relative;
+}
+
+
+.trip h1 {
+    position: absolute;
+    width: 25%;
+    font-size: 15px;
+    margin-left: 175px;
+    margin-top: 80gitpx;
+}
+   
+
+.trip h4 {
+    position: absolute;
+    width: 20%;
+    font-size: 7px;
+    margin-left: 160px;
+    margin-bottom: 120px;
+}
+
+.trip p {
+        position: absolute;
+        width: 40px;
+        font-size: 7px;
+        margin-left: 130px;
+        margin-top: 50px;
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 4px;
+        border-radius: 20px;
+        cursor: pointer;
+        
+    }
+
+
+    /*Explore Section 06*/
+
+    .explore {
+        padding-left: 5%;
+        padding-top: 2gitpx;
+        padding-right: 5%;
+         
+    }
+
+
+    .explore h2 {
+       font-size: 10px;
+         
+    }
+
+    .explore p {
+        font-size: 5px;
+        flex-basis: 40%;
+         
+    }
+
+
+    
+    .explore-two {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+    
+    }
+    
+    .one {
+        display: none;
+    }
+    
+    .two {
+      
+        display: none;
+       
+    }
+    
+    .three {
+        display: none;
+       
+    
+    }
+    
+    .four {
+        display: none;
+        
+    }
+    
+    .explore-two img {
+        margin-top: 15px ;
+        width: 22%;
+        height: auto;
+        object-fit: contain;
+        cursor: pointer;
+        flex-wrap: wrap;
+    
+    }
+    
+    .explore-two img:hover {
+        opacity: 75%;
+    }
+    
+
+/*More Explore Section 07*/
+
+
+.more {
+    padding-left: 5%;
+        padding-top: 4px;
+        padding-right: 5%;
+         
+    
+
+}
+
+.more-one h2 {
+    font-size: 10px;
+}
+
+.more-one p {
+     font-size: 5px;
+    flex-basis: 40%;
+}
+
+
+
+.more-two {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+
+}
+
+
+
+.more-two img {
+    margin-top: 15px ;
+    width: 30%;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    gap: 3px;
+    flex-wrap: wrap;
+
+}
+
+.more-two img:hover {
+    opacity: 75%;
+
+}
+
+.more-three {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+
+}
+.more-three-1 h4{
+    font-size: 7px;
+    text-align: center;
+   
+}
+
+.more-three-2 h4{
+    font-size: 7px;
+    text-align: center;
+
+    
+}
+
+.more-three-3 h4{
+    font-size: 7px;
+    text-align: center;
+
+    
+}
+
+
+.more-three-1 {
+    margin-left: 15px;
+}
+
+.more-three-2 {
+    margin-left: 50px;
+    
+}
+
+
+.more-three-3 {
+    margin-left: 170px;
+    position: absolute;
+    
+}
+
+
+
+.more-three-1 img {
+    display: none;
+
+    
+}
+
+.more-three-1 h5{
+    display: none;
+
+    
+}
+
+.more-three-2 img {
+    display: none;
+
+}
+
+.more-three-2 h5{
+    display: none;
+
+    
+}
+
+.more-three-3 img {
+    display: none;
+
+    
+}
+
+.more-three-3 h5{
+    display: none;
+
+    
+}
+
+
+/*Background 08*/
+.background {
+    display: flex;
+    position: relative;
+
+}
+
+
+.background img {
+    margin-top: 20px;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    
+}
+
+.background h1 {
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 25px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.background p {
+    width: 60%;
+    position: absolute;
+    margin-top: 75px;
+    margin-left: 40px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.background h5 {
+    width: 60px;
+    position: absolute;
+    border: solid  rgb(124, 221, 146) 3px ;
+    border-radius: 20px;
+    padding: 5px;
+    font-size: 5px;
+    background-color:  rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    margin-top: 150px;
+    margin-left: 130px;
+     
+}
+
+.background h5:hover {
+    background-color: rgb(124, 221, 146) ;
+    color: rgb(0, 0, 0);
+    border: solid  rgb(0, 0, 0) 3px ;
+    opacity: 75%;
+
+}
+
+
+
+/*Contact Section 09*/
+
+.contact {
+    margin-top: 10px;
+    background-color: beige;
+    width:380px;
+    height: 400px;
+}
+
+.contact-info {
+    padding-left: 7%;
+    padding-top: 20px;
+    padding-right: 7%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 8px;
+    
+}
+
+.contact-info p {
+    cursor: pointer;
+    
+}
+
+
+.container {
+    padding-left: 12%;
+    padding-top: 20px;
+    padding-right: 12%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+     
+}
+
+.contact-logo p {
+    width: 500px;
+    height: auto;
+    font-size: 13px;
+   
+
+} 
+
+.contact-info {
+    justify-content: flex-start;  /* Keep icons aligned to the left on mobile */
+    gap: 10px;  /* Reduce gap for smaller screens */
+}
+
+.contact-info img {
+    width: 20px;  /* Smaller icon size for mobile */
+    height: 20px;
+}
+}
+
